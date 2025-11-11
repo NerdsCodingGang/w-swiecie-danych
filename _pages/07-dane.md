@@ -16,7 +16,7 @@ Zestaw danych `movies_sample.csv` pochodzi z publicznych danych i został uprosz
 
 ## 📥 Wczytaj dane
 
-Spróbuj samodzielnie wczytać dane do Colaba.  
+Spróbuj samodzielnie wczytać dane do Colaba. Najlepiej utwórz nowy notatnik Colab.  
 Nie kopiuj wszystkiego z poprzednich rozdziałów – przypomnij sobie, jak to było robione.
 
 ```python
