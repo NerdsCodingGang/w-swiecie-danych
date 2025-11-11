@@ -151,7 +151,7 @@ print("Po zamianie na sekundy:", czas_s)
 minuty = czas_s // 60
 print("Pełne minuty:", minuty)
 
-# 3. ile sekund zostaje po odjęciu pełnych minut?
+# 3. ile sekund zostaje po odjęciu pełnych minut? operator modulo
 sekundy = czas_s % 60
 print("Pozostałe sekundy:", sekundy)
 
