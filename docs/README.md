@@ -1,6 +1,6 @@
-# 🚀 Nerds Coding Gang Python wakacyjny
+# 🚀 Nerds Coding Gang
 
-Repozytorium kursu **„Python od podstaw”**, realizowanego w ramach letnich warsztatów Nerds Coding Gang.  
+Repozytorium warsztatów, Nerds Coding Gang.  
 Materiały publikowane są jako strona internetowa zbudowana przy użyciu **GitHub Pages** i **Jekyll**.
 
 ---
