@@ -18,7 +18,7 @@ W tym rozdziale:
 
 ---
 
-## 📊 Pierwszy wykres: popularność gatunków
+## Pierwszy wykres: popularność gatunków
 
 Zaczniemy od pokazania średniej popularności dla 10 najpopularniejszych gatunków.  
 W poprzednim rozdziale liczyliśmy już te dane, teraz tylko je narysujemy.
@@ -73,8 +73,8 @@ Kolor `mediumseagreen` to po prostu zieleń, ale możesz wpisać dowolny inny ko
 
 {% include bookmark.html 
     url=" https://matplotlib.org/stable/gallery/color/named_colors.html#base-colors"
-    title="Dokumentacja matplotlib"
-    desc="Lista kolorów wg. nazw"
+    title="Lista kolorów wg. nazw"
+    desc="Dokumentacja matplotlib"
 %}
 
 > plt.title("Najbardziej popularne gatunki muzyczne")  
@@ -102,9 +102,9 @@ Spróbuj wyciągnąć tylko top 5, albo jednak top 20 gatunków. Przyjrzyj się�
 
 ---
 
-## 🎵 Wykres: tempo a energia
+## Wykres: tempo a energia
 
-Teraz spróbujmy zobaczyć, czy szybsze utwory są bardziej energetyczne.  
+Teraz spróbujmy zobaczyć, czy szybsze utwory są bardziej energetyczne 🎵   
 Do tego najlepiej pasuje wykres punktowy (ang. *scatter plot*).
 
 ```python
@@ -139,10 +139,10 @@ Zastanów się, czy widzisz jakiś wzór:
 
 ---
 
-## 🪩 Wykres: tempo i taneczność według gatunków
+## 💃 🪩 Wykres: tempo i taneczność według gatunków
 
-Spróbujmy jeszcze jednej wizualizacji, tym razem bardziej kolorowej.  
-Porównajmy średnie tempo i taneczność różnych gatunków.
+Spróbujmy jeszcze jednej wizualizacji, tym razem bardziej kolorowej. 
+Porównajmy średnie tempo i taneczność różnych gatunków 
 
 ```python
 grouped = df_small.groupby("track_genre")[["tempo","danceability"]].mean().head(10)  
@@ -160,18 +160,18 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 ## 📊 Najczęściej używane rodzaje wykresów w matplotlib
 
-| Typ wykresu | Funkcja | Do czego służy | Najważniejsze parametry | Przykład |
-|--------------|----------|----------------|--------------------------|-----------|
-| **Słupkowy (bar)** | `plt.bar(x, y)` | Pokazuje porównanie wartości między grupami, np. popularność gatunków | `color` – kolor słupków<br>`width` – szerokość słupków<br>`alpha` – przezroczystość | > plt.bar(genres, popularity, color="salmon") |
-| **Punktowy (scatter)** | `plt.scatter(x, y)` | Pokazuje zależność między dwiema zmiennymi (np. tempo i energia) | `color` – kolor punktów<br>`alpha` – przezroczystość<br>`s` – wielkość punktów<br>`marker` – kształt punktów (np. `"o"`, `"x"`, `"s"`) | > plt.scatter(df["tempo"], df["energy"], alpha=0.5, color="skyblue") |
-| **Liniowy (line)** | `plt.plot(x, y)` | Pokazuje zmiany wartości w czasie lub trend | `color` – kolor linii<br>`linestyle` – styl linii (`"-"`, `"--"`, `":"`)<br>`marker` – zaznaczenie punktów na linii | > plt.plot(df["tempo"], color="orange", linestyle="--") |
-| **Histogram (hist)** | `plt.hist(x)` | Pokazuje rozkład danych, np. jak często pojawia się dana wartość | `bins` – liczba przedziałów<br>`color` – kolor słupków<br>`alpha` – przezroczystość | > plt.hist(df["tempo"], bins=20, color="green", alpha=0.6) |
-| **Wykres kołowy (pie)** | `plt.pie(x, labels=...)` | Pokazuje udział procentowy części w całości | `labels` – etykiety segmentów<br>`autopct` – format procentów<br>`colors` – kolory części | > plt.pie(values, labels=labels, autopct="%1.1f%%") |
-| **Boxplot (pudełkowy)** | `plt.boxplot(x)` | Pokazuje rozkład i wartości odstające (outliers) | `vert` – pionowy (`True`) lub poziomy (`False`)<br>`patch_artist` – kolor wnętrza pudełka | > plt.boxplot(df["popularity"], patch_artist=True) |
+| Typ | Funkcja | Opis | Parametry | Przykład |
+|-----|----------|-------|------------|-----------|
+| **bar** | `plt.bar(x, y)` | Porównanie grup | `color`, `width`, `alpha` | `plt.bar(genres, popularity)` |
+| **scatter** | `plt.scatter(x, y)` | Zależność zmiennych | `color`, `alpha`, `s`, `marker` | `plt.scatter(df["tempo"], df["energy"])` |
+| **line** | `plt.plot(x, y)` | Trend / czas | `color`, `linestyle`, `marker` | `plt.plot(df["tempo"])` |
+| **hist** | `plt.hist(x)` | Rozkład danych | `bins`, `color`, `alpha` | `plt.hist(df["tempo"], bins=20)` |
+| **pie** | `plt.pie(x)` | Udział procentowy | `labels`, `autopct`, `colors` | `plt.pie(values)` |
+| **boxplot** | `plt.boxplot(x)` | Rozkład i outliery | `vert`, `patch_artist` | `plt.boxplot(df["popularity"])` |
 
 
 
-#### 💡Jak dobrać wykres do danych?
+### 💡Jak dobrać wykres do danych?
 
 | Cel | Najlepszy wykres |
 |------|------------------|
@@ -183,6 +183,12 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 | Wykrywanie wartości odstających | boxplot |
 
 
+{% include bookmark.html 
+    url=" https://matplotlib.org/stable/gallery/lines_bars_and_markers/index.html"
+    title="Rodzaje wykresów"
+    desc="Dokumentacja matplotlib"
+%}
+
 
 > ##### 💡  Wskazówka 
 >
@@ -192,7 +198,7 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 
 
-#### Zadanie
+### Zadanie
 
 1. Zrób wykres porównujący **średnią energię i popularność** dla kilku gatunków.
 2. Zmień kolory wykresu – w `color=` możesz wpisać nazwę koloru np. `"salmon"` lub inny z dostępnych kolorów.  
@@ -205,6 +211,14 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 > Wizualizacja to nie tylko ozdoba firmowych prezentacji. Zawsze pamiętaj, że wykres jest sposobem, by przekazać wnioski w prosty i czytelny sposób.  
 > Dzięki wykresom dane stają się opowieścią, którą każdy może zrozumieć.
 {: .block-tip }
+
+
+### Zadanie
+
+1. Zrób wykres porównujący **średnią energię i popularność** dla kilku gatunków.
+2. Zmień kolory wykresu – w `color=` możesz wpisać nazwę koloru np. `"salmon"` lub inny z dostępnych kolorów.  
+3. Nie zapomnij dodać tytuł i podpisy osi tak, by ktoś inny wiedział, co ten wykres pokazuje.  
+
 
 
 ---

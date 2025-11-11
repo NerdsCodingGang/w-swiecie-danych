@@ -15,7 +15,7 @@ Zestaw danych `movies_sample.csv` pochodzi z publicznych danych i został uprosz
 
 ---
 
-## 📥 Wczytaj dane
+## Wczytaj dane
 
 Spróbuj samodzielnie wczytać dane do Colaba. Najlepiej utwórz nowy notatnik Colab.  
 Nie kopiuj wszystkiego z poprzednich rozdziałów – przypomnij sobie, jak to było robione.
@@ -33,7 +33,7 @@ Zobacz kilka pierwszych wierszy:
 
 ---
 
-## 🧭 Pierwsze sprawdzenie
+## Pierwsze sprawdzenie
 
 Zanim zaczniesz sprzątać dane, upewnij się, że rozumiesz, co masz przed sobą.
 
@@ -55,7 +55,7 @@ Zredukuj wielkość do podstawowych informacji, by operować na mniejszej ramce
 
 ---
 
-## 🕳️ Braki danych
+## Braki danych
 
 Sprawdź, ile danych brakuje w każdej kolumnie (`df.isna().sum()`)
 
@@ -69,7 +69,7 @@ Teraz zobacz, czy liczba braków się zmniejszyła (`df.isna().sum()`)
 
 ---
 
-## 🔢 Konwersja typów
+## Konwersja typów
 
 Czasem kolumna zawiera liczby, ale zapisane są jako tekst.  
 Spróbuj zmienić typ danych w kolumnie `year` lub `votes` aby mieć pewność, że są poprawne
