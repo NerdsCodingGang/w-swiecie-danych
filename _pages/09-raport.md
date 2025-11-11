@@ -1,5 +1,5 @@
 ---
-title: 8. Twój mały raport końcowy
+title: 8. Twój raport
 layout: post
 ---
 
