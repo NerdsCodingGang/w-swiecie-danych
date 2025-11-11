@@ -119,7 +119,7 @@ Oczywiście jeszcze nie potrafimy tego zrobić, ale możemy się pewnych rzeczy
 
 2️ **Zastanów się:**  
    - które z nich są szybkie, a które spokojne?  
-   - czy zauważasz, że te szybsze mają więcej odtworzeń lub częściej pojawiają się w poleceniach?  (przygotuj małą tabelkę z min. 5 piosenkami i zapisz dane jakie można o nich znaleźć)
+   - czy zauważasz, że te szybsze mają więcej odtworzeń lub częściej pojawiają się w poleceniach?  (przygotuj małą tabelkę z min. 5 piosenkami i zapisz dane jakie można o nich znaleźć ~ na tym etapie możesz pisać ręcznie)
    - czy to może mieć związek z porą dnia, nastrojem, stylem życia?
 
 3️ **Zapisz jedną hipotezę**, czyli zdanie w stylu:  
