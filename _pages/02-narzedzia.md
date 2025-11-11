@@ -10,10 +10,10 @@ Nie musisz niczego instalować na swoim komputerze – użyjemy **Google Colab**
 
 ---
 
-## ☁️ Google Colab – nasz notatnik w chmurze
+## ☁️ Google Colab
 
 **Google Colab** to darmowe narzędzie od Google, które pozwala pisać i uruchamiać kod Pythona bez żadnej instalacji.  
-Wszystko działa w przeglądarce, a Twoje notatki możesz zapisać na Dysku Google.
+Wszystko działa w przeglądarce, a Twoje notatki możesz zapisać na Dysku Google. O taki notatkik w chmurze!
 
 🔗 Otwórz: [https://colab.research.google.com](https://colab.research.google.com)
 
