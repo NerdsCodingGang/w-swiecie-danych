@@ -3,7 +3,7 @@ title: 5. Typy danych
 layout: post
 ---
 
-Do tej pory pracowałyśmy ze zmiennymi zawierającymi liczby. Ale Python – podobnie jak inne języki – obsługuje różne **typy danych**.
+Zanim pójdziemy dalej, musimy zrozumieć jeszcze jedną rzecz. Dane mają swój TYP czyli Python wie czy dane wartości to liczby a może tekst. Do tej pory pracujemy ze zmiennymi w kolumnach zawierającymi liczby, a przynajmniej tak się nam wydawało. Ale Python – podobnie jak inne języki – obsługuje różne **typy danych**.
 
 Typ danych określa, **jakiego rodzaju wartość** przechowujemy w zmiennej.  
 Spójrzmy na najczęściej używane:
@@ -108,86 +108,69 @@ Aby sprawdzić, ile znaków ma tekst, używamy `len()`:
 ```
 
 
-## Zadanie 🎯
+### Zadanie 🎯
 
-1. Stwórz zmienną `hello` z tekstem `"Hello, [TwojeImię]!"`  
+1. Stwórz zmienną `hello` z tekstem `"Hello, [TwojeImię]!"`  a następnie te zmienną wyświetlisz 10 razy.
 2. Użyj metody `.replace()`, aby zamienić swoje imię na `"Python"`  
 3. Wypisz wynik na ekranie
 
+---
 
-### Dokumentacja 
+## 🔢 Sprawdź typ kolumny
 
-Zajrzyj do dokumentacji - metody String. Możesz skorzystać z Google, nie pytaj jednak o rozwiązanie AI - spróbuj ruszyć głową!
-
-{% include bookmark.html 
-    url="https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str"
-    title="Text Sequence Type – str"
-    desc="Dokumentacja typu tekstowego w Pythonie"
-%}
-
-- Utwórz zmienną, która będzie przechowywać imię pupila, a następnie wyświetl informację "Pogłaszcz {imie_pupila}, ucieszy się".
-- Zapisz swoje imię i nazwisko do dowolnej zmiennej. Ile znaków ma Twoje imię i nazwisko?
-- Zmień wszystkie litery imienia i nazwiska na drukowane.
-- Jaką metodą usunąć z ciągu znaków “Programujemy w Pythonie” literę a?
-- ⭐ W jaki sposób zamienić ciąg znaków “123” na liczbę 123?
-
-
-## 🧙 Zadanie: Ile pieniędzy zabrać do Hogsmeade?
-
-> "The gold ones are Galleons. Seventeen silver Sickles to a Galleon and twenty-nine Knuts to a Sickle, it's easy enough."
-
-Czy zastanawialiście się kiedyś, ile złotówek musielibyście zabrać do Hogsmeade, żeby zrobić tam zakupy?
-W książce *„Quidditch przez wieki”* (wyd. Media Rodzina) sugerowana cena to 10 złotych, a obok podano 9 sykli i 7 knutów.  
-Na tej podstawie oszacowano wartość czarodziejskiej waluty:
-
-- 🟤 **1 knut ≈ 0,04 zł (4 grosze)**  
-- ⚪ **1 sykl = 29 knutów = 1,16 zł**  
-- 🟡 **1 galeon = 17 sykli = 19,72 zł**
-
-
-
-Na tej podstawie odpowiedz na poniższe pytania:
-
-**Zadania**
-
-1. Ile zapłacisz w złotówkach za różdżkę, która kosztuje **7 galeonów**?
-
-2. Ile kosztuje w złotówkach **gazeta** za **25 knutów**?
-
-3. Jaką wartość ma **nagroda 700 galeonów**, którą wygrała rodzina czarodziejów w przeliczeniu na PLN?
-
-4. Masz do dyspozycji **350 złotych**. Ile czarodziejskich monet możesz za to otrzymać, rozmienione od największych (najpierw galeony, potem sykle, na końcu knuty)?
-   - Wynik podaj w formacie: **X galeonów, Y sykli, Z knutów**
-   - Oblicz też, ile Ci zostanie (**reszta** w złotych).
-
+Najprostszy sposób, by dowiedzieć się, jakie dane są w danej kolumnie, to sprawdzenie jej **typu**.
 
 ```python
-# wartości walut w złotówkach
-wartosc_knuta = 0.04
-wartosc_sykla = ...
-wartosc_galeona = ...
-
-# 🪄 1. Cena różdżki 
-rozdzka_cena = 
-print("Cena różdżki: ... zł")
-
-# 🗞️ 2. Cena gazety
-
-
-# 🏆 3. Nagroda 
-
-# 💰 4. Masz 350 zł – ile to galeonów, sykli i knutów?
-
-# najpierw liczymy galeony
-
-# potem sykle
-
-# na końcu knuty
-
-print("Za 350 zł dostaniesz:")
-print( "X galeonów,", "Y sykli,", "Z knutów")
-
-# reszta w złotówkach
-print("Reszta: ... ")
-
+df["tempo"].dtype
 ```
+
+`df` to cały nasz zbiór danych (ramka danych).  Możesz też użyć `df_small`, jeśli wcześniej tworzyliśmy mniejszy zestaw:
+
+```python
+df_small["tempo"].dtype
+```
+
+Jeśli wynik to coś w rodzaju **float64** lub **int64**, oznacza to, że kolumna zawiera liczby.  
+`int` to liczby całkowite, a `float` to liczby z przecinkiem (tak zwane liczby zmiennoprzecinkowe).
+
+Jeśli natomiast wynik to **object** lub **string**, oznacza to, że w kolumnie są teksty albo **wartości mieszane**,  
+na przykład liczby zapisane jako tekst.
+
+Spróbuj też sprawdzić typ kolumny, w której są nazwy utworów:
+
+```python
+df_small["track_name"].dtype
+```
+
+Zobaczysz, że ta kolumna ma typ **object**, co jest spodziewane, bo wiemy, że zawiera dane tekstowe.
+
+---
+
+## 🧮 Sprawdź, czy wszystkie wartości są liczbowe
+
+Czasem kolumna wygląda na liczbową, ale nie wszystkie wartości naprawdę są liczbami.  
+Na przykład ktoś mógł wpisać słowo zamiast liczby albo zostawić puste pole.  
+
+Możesz to sprawdzić w prosty sposób:
+
+```python
+pd.to_numeric(df_small["tempo"], errors="coerce").notna().all()
+```
+
+Jeśli wynik to **True**, oznacza to, że wszystkie wartości da się odczytać jako liczby.  
+Jeśli **False**, to znaczy, że w tej kolumnie znajdują się jakieś niepoprawne wpisy (np. tekst albo brak danych).
+
+Spróbuj też sprawdzić kolumnę, w której są nazwy utworów:
+
+```python
+pd.to_numeric(df_small["track_name"], errors="coerce").notna().all()
+```
+
+Tutaj wynik powinien być **False**, bo nazwy utworów to tekst, a nie liczby.
+
+---
+
+💡 **Wniosek:**  
+Dzięki tym dwóm prostym sposobom możesz łatwo sprawdzić, które kolumny są liczbowe, a które tekstowe.  
+A to już jest przydatne przed kolejnymi etapami, takimi jak liczenie średnich, grupowanie danych czy tworzenie wykresów. Lepiej upewnić się wcześniej, że typ jest liczbowy, niż później dostać błędy, bo Python nie będzie chciał zrobić np. średiej z typów mieszanych (bo przecież jak zrobić średnią z `5, 2, 4, pies i True`?)
+
