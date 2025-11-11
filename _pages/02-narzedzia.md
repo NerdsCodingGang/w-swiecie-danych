@@ -22,19 +22,24 @@ Wszystko działa w przeglądarce, a Twoje notatki możesz zapisać na Dysku Goog
 3️⃣ Zmień nazwę notatnika na coś w stylu **“DataScience_Workshop”**.  
 4️⃣ Gotowe! Teraz możesz pisać kod i uruchamiać komórki (Shift + Enter).  
 
-💬 Każda komórka to jak „mały eksperyment” – możesz do niej wstawić kod, tekst lub wykres.  
+💬 Każda komórka to jak mały eksperyment, mini kod pythona możesz do niej wstawić kod, tekst lub wykres.  
 To właśnie w Colabie będziemy pracować z danymi w dalszych rozdziałach.
+
+![VSC]({{ site.baseurl }}/assets/02-google-colab){:title="google colab" class="img-responsive"}
 
 ---
 
-## 🧠 Jak to działa?
+## Jak to działa?
 
 Google Colab to coś pomiędzy:
 - **zeszytem z notatkami**,  
-- a **małym laboratorium danych**.  
+- a **środowiskiem wykonawczym dla jezyka programowania python**
+- dla niektórych, którzy coś już gdzieś dłubali może przypominać też Jupyer Notebook i będzie to całkiem słuszne skojarzenie.
 
-Możesz pisać tam kod, dodawać komentarze i od razu zobaczyć efekty.  
-Nie musisz się martwić o instalacje bibliotek – większość narzędzi, jak **pandas**, **matplotlib** czy **scikit-learn**, jest już tam dostępna.
+Możesz pisać tu kod, dodawać komentarze i od razu zobaczyć efekty.  
+Nie musisz się martwić o instalacje bibliotek większość narzędzi, jak **pandas**, **matplotlib** czy **scikit-learn**, jest już dla nas dostępne.
+
+Notatniki Colab uruchamiają kod na serwerach Google w chmurze, co oznacza, że możesz korzystać z mocy obliczeniowej sprzętu Google, a więc niezależnie od mocy Twojego komputera. Potrzebujesz tylko przeglądarki, nawet jeśli Twój laptop jest zupełnie słaby lub pracujesz na tablecie.
 
 ---
 
@@ -50,21 +55,30 @@ To darmowy edytor kodu z:
 
 Zainstalujesz go raz i możesz używać do Pythona, HTML-a, Javy czy czegokolwiek innego ✨  
 
-Na warsztatach skupiamy się na Colabie, ale VS Code przyda Ci się później, jeśli chcesz pisać własne projekty lub portfolio.
+Na warsztatach skupiamy się na Colabie, ale VS Code przyda Ci się później, jeśli chcesz pisać własne projekty lub portfolio. Jeśli chcesz, możesz korzystać, my będziemy jednak używać Colaba ;) 
+
+PS: jeśli mimo wszystko decydujesz się na VSC dodaj wtyczkę  do Pythona 
+
+![VSC]({{ site.baseurl }}/assets/vsc-python.png){:title="VSC wtyczka Python" class="img-responsive"}
 
 ---
 
-## 📦 Dodatkowe narzędzia, które się przydadzą
+## 📦 Dodatkowe narzędzia, które się przydają
 
 | Narzędzie | Do czego służy | Link |
 |------------|----------------|------|
-| 🧮 Google Sheets | szybkie podglądy danych w tabeli | [https://sheets.google.com](https://sheets.google.com) |
-| 💾 GitHub | do przechowywania kodu i dzielenia się projektami | [https://github.com](https://github.com) |
+| 🧮 Google Sheets | szybkie podglądy danych | [https://sheets.google.com](https://sheets.google.com) |
 | 📊 Kaggle | do pobierania zestawów danych (CSV) i nauki | [https://www.kaggle.com](https://www.kaggle.com) |
-
+| 💾 GitHub | do przechowywania kodu i dzielenia się projektami | [https://github.com](https://github.com) |
 ---
 
 ## ✨ Pierwszy krok w Colabie
+
+Zmień tytuł notatnika na np. Zrozum dane z NCG
+
+Utwórz komórkę tekstową i dodaj tam opis np. "moje notatki z warsztatów z nerds coding gang".
+
+Utwórz kolejną komórkę tym razem "kodową".
 
 Spróbuj wpisać poniższy kod w nowej komórce i uruchom go skrótem **Shift + Enter** lub znakiem startu obok komórki:
 
