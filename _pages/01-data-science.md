@@ -88,9 +88,13 @@ Tak naprawdę rozumienie i praca z danymi nie jest tylko dla ról typu Data Scie
 
 Z danymi pracuje Project Manager, który analizuje postęp projektu, wymagania biznesowe i efektywność zespołu.
 Programista, który przetwarza dane wejściowe i wyjściowe, buduje systemy operujące na dużych wolumenach danych użytkowników i dba o ich optymalizację.
+
 UX Designer, który analizuje dane z badań użytkowników, metryki zachowań i wnioski z testów A/B, by podejmować decyzje projektowe oparte na faktach.
+
 DevOps lub Data Engineer, który projektuje infrastrukturę do gromadzenia, przetwarzania i udostępniania danych w sposób bezpieczny i skalowalny.
+
 Tester oprogramowania (QA) również pracuje z danymi, analizuje wyniki testów, błędy, logi i metryki jakości, by upewnić się, że produkt działa stabilnie i zgodnie z wymaganiami.
+
 Marketing Specialist / Growth Analyst, który analizuje dane z kampanii, konwersji i ruchu, by lepiej zrozumieć odbiorców i skutecznie planować działania.
 
 Różne dane, różne cele, ale każdy ma do czynienia z przetwarzaniem informacji.
