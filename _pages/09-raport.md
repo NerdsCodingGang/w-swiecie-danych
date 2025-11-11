@@ -33,7 +33,7 @@ Zapisz swoje pytanie w komórce tekstowej w Colabie jako tytuł (znak `#` na poc
 W większości przypadków wystarczy Ci `df_small`.  
 Możesz też utworzyć mniejszą wersję zawierającą tylko kolumny, które Cię interesują, np.:
 
-> df_project = df_small[["track_name", "artists", "popularity", "tempo", "energy", "danceability", "track_genre"]]
+`df_project = df_small[["track_name", "artists", "popularity", "tempo", "energy", "danceability", "track_genre"]]`
 
 Jeśli potrzebujesz policzyć średnie lub pogrupować dane — użyj `groupby()` lub `describe()`.  
 Nie szukaj nowych danych — skup się na tym, żeby wyciągnąć ciekawy wniosek z tego, co już masz.
