@@ -184,7 +184,7 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 
 
-> ##### 📘 Wskazówka 
+> ##### 💡  Wskazówka 
 >
 > Reszta przyda się później, gdy zechcesz pokazać dane w różny sposób.  
 > Z każdym wykresem możesz też używać tych samych komend opisowych: `plt.title()`, `plt.xlabel()`, `plt.ylabel()`, `plt.show()`.
@@ -192,7 +192,7 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 
 
-## Zadanie
+#### Zadanie
 
 1. Zrób wykres porównujący **średnią energię i popularność** dla kilku gatunków.
 2. Zmień kolory wykresu – w `color=` możesz wpisać nazwę koloru np. `"salmon"` lub inny z dostępnych kolorów.  
@@ -200,10 +200,12 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 ---
 
-💡 **Wskazówka**  
-Wizualizacja to nie tylko ozdoba.  
-To sposób, by przekazać wnioski w prosty i czytelny sposób.  
-Dzięki wykresom dane stają się opowieścią, którą każdy może zrozumieć.
+> ##### 💡  Wskazówka 
+>
+> Wizualizacja to nie tylko ozdoba firmowych prezentacji. Zawsze pamiętaj, że wykres jest sposobem, by przekazać wnioski w prosty i czytelny sposób.  
+> Dzięki wykresom dane stają się opowieścią, którą każdy może zrozumieć.
+{: .block-tip }
+
 
 ---
 
