@@ -52,10 +52,10 @@ Data Science pozwala te dane zrozumieć, uporządkować i wyciągnąć z nich se
 Zacznijmy od tego, dla kogo jest Data Science.
 
 Samo określenie *Scientist* budzi pewne skojarzenia. Może kitel, może probówki, może laboratorium.  
-A kim jest *junior data scientist* — ta rola, która robi się coraz popularniejsza w IT?
+A kim jest *junior data scientist*, ta rola, która robi się coraz popularniejsza w IT?
 
 To ktoś, kto potrafi połączyć ciekawość świata, analityczne myślenie i odrobinę **magii technologii**.  
-To właśnie Data Scientist — osoba, która **zadaje pytania i szuka odpowiedzi w danych**.  
+To właśnie Data Scientist —> osoba, która **zadaje pytania i szuka odpowiedzi w danych**.  
 
 Rola szczególnie ważna dziś, gdy sztuczna inteligencja często „udaje” prawdziwą inteligencję.  
 Ludzie czasem ślepo wierzą w generowane treści — i wtedy pojawia się *naukowiec danych* 🧑‍🔬, który mówi: **„sprawdzam!”**  
@@ -66,7 +66,7 @@ Ludzie czasem ślepo wierzą w generowane treści — i wtedy pojawia się *nauk
 - Co łączy filmy, które dostają najwyższe oceny widzów w kinie? Czy smak popcornu może mieć wpływ?  
 
 Data Scientist nie zawsze zna od razu odpowiedź,  
-ale wie, **gdzie i jak jej szukać** – w danych!
+ale wie, **gdzie i jak jej szukać** w danych!
 
 ---
 
@@ -84,7 +84,7 @@ Każdy **projekt w data science** to *podróż* w kilku etapach:
 
 ---
 
-## 🎬 Case study: dane o muzyce
+## 🎬 mini case study: dane o muzyce
 
 Przyjrzyjmy się danym z **Spotify** 🎵  
 Chcemy sprawdzić, **czy tempo utworu (BPM) wpływa na jego popularność.**
@@ -120,7 +120,7 @@ Oczywiście jeszcze nie potrafimy tego zrobić, ale możemy się pewnych rzeczy
 
 ---
 
-## 🔍 Mini-zadanie dla Ciebie
+## Zadanie dla Ciebie
 
 Spróbuj pomyśleć o **swoim codziennym życiu** i znajdź pytanie, na które mogłaby odpowiedzieć analiza danych.  
 Na przykład:
@@ -129,7 +129,6 @@ Na przykład:
 - Jakie warunki pogodowe mają wpływ na Twój nastrój?
 
 📝 Zapisz jedno takie pytanie — wrócimy do niego później, gdy nauczymy się, jak takie dane **zbierać** i **analizować**.
-
 
 
 ---
