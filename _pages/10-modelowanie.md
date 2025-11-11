@@ -18,7 +18,7 @@ Możemy to sobie wyobrazić jako **szukanie linii trendu**:
 
 > jeśli tempo utworu rośnie, to czy jego popularność też rośnie?
 
-Model „uczy się” na podstawie przykładów, czyli z danych, a potem potrafi **przewidywać** wyniki dla nowych przypadków.  
+Model "uczy się" na podstawie przykładów, czyli z danych, a potem potrafi **przewidywać** wyniki dla nowych przypadków.  
 Choć może brzmieć to trochę magicznie, w rzeczywistości to **matematyka zapisana w kodzie**.  
 
 Model to nic innego jak **matematyczny wzór**, który próbuje znaleźć zależność między danymi wejściowymi a wynikiem.  
@@ -75,6 +75,11 @@ Nadal importujemy w pythonie, ale teraz nie cały sklearn a wybieramy konkretną
 ---
 
 ### Krok 3. Trenowanie modelu
+
+Chcemy wytrenować smoka... ale właściwie to możemy tylko wytrenować model ;) 
+
+![Trenowanie]({{ site.baseurl }}/assets/dragon.gif){:title="trening modelu" class="img-responsive"}
+
 
 Model musi się "nauczyć" na danych, czyli znaleźć najlepszą linię, która pasuje do naszych punktów.
 
@@ -154,4 +159,4 @@ Wartość score `R²`. mieści się między 0 a 1.
 
 🎉 Yaaay!  
 
-Wiesz jak zbudować najprostszy model ML. Wiesz, co to znaczy „trenować model” i „przewidywać wartości”. Potrafisz zwizualizować wyniki i sprawdzić, jak dobrze model działa.  
+Wiesz jak zbudować najprostszy model ML. Wiesz, co to znaczy "trenować model" i "przewidywać wartości". Potrafisz zwizualizować wyniki i sprawdzić, jak dobrze model działa.  
