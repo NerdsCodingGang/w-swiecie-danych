@@ -156,6 +156,17 @@ plt.show()
 Na jednym wykresie zobaczysz dwie cechy jednocześnie – tempo i taneczność.  
 To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
+A co by się stało, gdyby zmienić `kind="bar"` na `kind="scatter"` jakie parametry byłyby wtedy konieczne? 
+
+
+> df_small.plot(kind="scatter",  
+>               x="tempo",  
+>               y="danceability",  
+>               color="cornflowerblue",  
+>               alpha=0.5,  
+>               figsize=(8,5))
+
+
 ---
 
 ## 📊 Najczęściej używane rodzaje wykresów w matplotlib
@@ -198,13 +209,12 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 
 
-### Zadanie
+### Zadanie 1
 
 1. Zrób wykres porównujący **średnią energię i popularność** dla kilku gatunków.
 2. Zmień kolory wykresu – w `color=` możesz wpisać nazwę koloru np. `"salmon"` lub inny z dostępnych kolorów.  
 3. Nie zapomnij dodać tytuł i podpisy osi tak, by ktoś inny wiedział, co ten wykres pokazuje.  
 
----
 
 > ##### 💡  Wskazówka 
 >
@@ -213,16 +223,39 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 {: .block-tip }
 
 
-### Zadanie
+### Zadanie 2 
 
-1. Zrób wykres porównujący **średnią energię i popularność** dla kilku gatunków.
-2. Zmień kolory wykresu – w `color=` możesz wpisać nazwę koloru np. `"salmon"` lub inny z dostępnych kolorów.  
-3. Nie zapomnij dodać tytuł i podpisy osi tak, by ktoś inny wiedział, co ten wykres pokazuje.  
+Poniżej masz cztery pomysły. Wybierz jeden z nich i spróbuj samodzielnie narysować go w Colabie.  Najlepiej podzielcie się w grupie, by przetestować jak najwięcej z wykresów.
+Pamiętaj, że każdemu z tych wykresów możesz dodać parametry:  
+`color=`, `title=`, `figsize=`, `alpha=` i inne.
 
+Po narysowaniu wykresu dodaj:
+- `plt.xlabel("opis osi X")`  
+- `plt.ylabel("opis osi Y")` 
+- `plt.title("Twój tytuł wykresu")`
+
+
+1. **`kind="hist"`**  
+   Narysuj histogram pokazujący **rozkład tempa** lub **popularności** utworów.  
+   - Wskazówki: użyj parametru `bins=` (liczba przedziałów),  
+     `color=` (kolor słupków) i `alpha=` (przezroczystość).  
+   - Pomyśl, co możesz odczytać z takiego wykresu – czy większość utworów ma podobne tempo?
+
+
+2. **`kind="box"`**  
+   Spróbuj wykresu pudełkowego pokazującego, **jak bardzo zróżnicowana jest popularność** między gatunkami.  
+   - Użyj kolumny `popularity` i pogrupuj dane według `track_genre`.  
+   - Sprawdź, czy są gatunki, które mają dużo wartości odstających (czyli pojedyncze bardzo popularne utwory).
+
+
+3. **`kind="pie"`**  
+   Narysuj wykres kołowy pokazujący **udział gatunków w zbiorze danych**.  
+   - Wskazówka: użyj `value_counts()` i wybierz kilka najczęstszych gatunków, np. 5 lub 6.  
+   - Przydadzą się parametry `autopct=` (pokazuje procenty) i `colors=` (lista kolorów).  
+   - Uwaga: jeśli gatunków będzie zbyt wiele, wykres stanie się nieczytelny – wybierz tylko kilka!
 
 
 ---
 
 🎉 Brawo!  
-Masz już nie tylko liczby, ale i obrazy, które potrafią coś powiedzieć o muzyce.  
-W kolejnym rozdziale spróbujemy połączyć kilka wykresów i przygotować mały raport – prawie jak prawdziwy analityk danych.
+Mamy już nie tylko liczby, ale i obrazy, które potrafią coś powiedzieć o naszych danych.
