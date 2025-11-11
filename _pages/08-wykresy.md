@@ -257,5 +257,5 @@ Po narysowaniu wykresu dodaj:
 
 ---
 
-🎉 Brawo!  
+🎉 Braawoo!  
 Mamy już nie tylko liczby, ale i obrazy, które potrafią coś powiedzieć o naszych danych.
