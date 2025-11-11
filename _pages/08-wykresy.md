@@ -158,14 +158,14 @@ To prosty sposób, by zauważyć, które gatunki są bardziej „imprezowe”.
 
 A co by się stało, gdyby zmienić `kind="bar"` na `kind="scatter"` jakie parametry byłyby wtedy konieczne? 
 
-
-> df_small.plot(kind="scatter",  
->               x="tempo",  
->               y="danceability",  
->               color="cornflowerblue",  
->               alpha=0.5,  
->               figsize=(8,5))
-
+```python
+df_small.plot(kind="scatter",  
+            x="tempo",  
+            y="danceability",  
+            color="cornflowerblue",  
+            alpha=0.5,  
+            figsize=(8,5))
+```
 
 ---
 
