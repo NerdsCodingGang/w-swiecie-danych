@@ -29,7 +29,9 @@ To właśnie w Colabie będziemy pracować z danymi w dalszych rozdziałach.
 
 ---
 
-## Jak to działa?
+## Chwila... ale co to ten Colab?
+
+Dobrze, że pytasz!
 
 Google Colab to coś pomiędzy:
 - **zeszytem z notatkami**,  
@@ -39,7 +41,7 @@ Google Colab to coś pomiędzy:
 Możesz pisać tu kod, dodawać komentarze i od razu zobaczyć efekty.  
 Nie musisz się martwić o instalacje bibliotek większość narzędzi, jak **pandas**, **matplotlib** czy **scikit-learn**, jest już dla nas dostępne.
 
-Notatniki Colab uruchamiają kod na serwerach Google w chmurze, co oznacza, że możesz korzystać z mocy obliczeniowej sprzętu Google, a więc niezależnie od mocy Twojego komputera. Potrzebujesz tylko przeglądarki, nawet jeśli Twój laptop jest zupełnie słaby lub pracujesz na tablecie.
+Notatniki Colab uruchamiają kod na serwerach Google w chmurze, co oznacza, że możesz korzystać z mocy obliczeniowej sprzętu Google, a więc niezależnie od mocy Twojego komputera. Potrzebujesz tylko przeglądarki, nawet jeśli Twój laptop jest zupełnie słaby czy "stary" lub pracujesz na tablecie (a dla już prawidziwych masochistów na telefonie 😳 ).
 
 ---
 
@@ -48,6 +50,7 @@ Notatniki Colab uruchamiają kod na serwerach Google w chmurze, co oznacza, że
 Jeśli chcesz rozwijać się dalej po warsztatach i pisać projekty samodzielnie, warto mieć lokalne środowisko.
 
 👉 Zainstaluj **[Visual Studio Code (VS Code)](https://code.visualstudio.com/)**  
+
 To darmowy edytor kodu z:
 - kolorowaniem składni,  
 - podpowiedziami,  
