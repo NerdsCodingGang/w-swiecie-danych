@@ -62,7 +62,7 @@ Jesteście gotowi?
 
 ### 🎵 Zbiór danych: spotify_sample.csv
 
-Na warsztatach możesz pobrać plik ze strony [Dataset Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?resource=download) albo skorzystać z pliku na githubie -> [`spotify_sample.csv`](https://raw.githubusercontent.com/NerdsCodingGang/data/spotify_sample.csv) z przygotowanymi danymi.  
+Na warsztatach możesz pobrać plik ze strony [Dataset Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?resource=download) albo skorzystać z pliku na githubie -> [`spotify_sample.csv`](https://github.com/NerdsCodingGang/w-swiecie-danych/blob/main/data/spotify_sample.csv) z przygotowanymi danymi.  
 
 
 > Zestaw danych zawierający utwory ze Spotify obejmujący 125 różnych gatunków muzycznych. Każdy utwór ma przypisane określone cechy dźwiękowe. Dane są zapisane w formacie CSV, czyli w postaci tabeli, którą można łatwo i szybko wczytać.
@@ -106,3 +106,9 @@ Ten sposób jest dobry, gdy masz plik zapisany na swoim komputerze.
 
 Powinna pojawić się tabelka z pierwszymi wierszami danych.
 Jeśli ją widzisz, to właśnie zrobiłaś/zrobiłeś pierwszy krok w pracy z danymi.
+
+**Alternatywnie** 
+
+Można też użyć uploadu ręcznego i widoku zarządzania plikami tymczasowymi - przydatna rzecz, gdy chcemy załadować kilka plików. Ważne jednak pliki żyją tak długo, do póki nie zamkniemy Google Colab. Jeśli chcemy mieć do nich stały dostęp możemy też przechowywać je w Google Drive w stałej lokalizacji.
+
+![colab-pliki]({{ site.baseurl }}/assets/pliki-colab.png){:title="zarzadzanie plikami" class="img-responsive"}
