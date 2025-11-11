@@ -222,6 +222,6 @@ Czy jesteście w stanie grupą wymyśleć inne pytania?
 
 ---
 
-🎉 Świetnie.  
+🎉 Świetnie
 Znasz już podstawowe kroki w poznawaniu i porządkowaniu danych.  
 W następnym rozdziale zaczniemy analizować dane bardziej świadomie i spróbujemy znaleźć odpowiedzi na Twoje pytania.

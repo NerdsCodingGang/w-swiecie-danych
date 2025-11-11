@@ -172,5 +172,6 @@ Zadaj jedno pytanie w stylu:
 Zapisz to pytanie.
 - W kolejnych rozdziałach zaczniemy sprawdzać takie hipotezy w praktyce.
 
+---
 
 🎉 Super, potrafisz już otwierać i przeglądać dane tabelaryczne Pythonem! 

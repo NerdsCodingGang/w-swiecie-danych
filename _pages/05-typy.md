@@ -170,7 +170,7 @@ Tutaj wynik powinien być **False**, bo nazwy utworów to tekst, a nie liczby.
 
 ---
 
-💡 **Wniosek:**  
+💡 Yup!
 Dzięki tym dwóm prostym sposobom możesz łatwo sprawdzić, które kolumny są liczbowe, a które tekstowe.  
 A to już jest przydatne przed kolejnymi etapami, takimi jak liczenie średnich, grupowanie danych czy tworzenie wykresów. Lepiej upewnić się wcześniej, że typ jest liczbowy, niż później dostać błędy, bo Python nie będzie chciał zrobić np. średiej z typów mieszanych (bo przecież jak zrobić średnią z `5, 2, 4, pies i True`?)
 
