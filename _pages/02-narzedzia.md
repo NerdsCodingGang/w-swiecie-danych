@@ -70,17 +70,18 @@ PS: jeśli mimo wszystko decydujesz się na VSC dodaj wtyczkę  do Pythona
 | 🧮 Google Sheets | szybkie podglądy danych | [https://sheets.google.com](https://sheets.google.com) |
 | 📊 Kaggle | do pobierania zestawów danych (CSV) i nauki | [https://www.kaggle.com](https://www.kaggle.com) |
 | 💾 GitHub | do przechowywania kodu i dzielenia się projektami | [https://github.com](https://github.com) |
+
 ---
 
 ## ✨ Pierwszy krok w Colabie
 
-Zmień tytuł notatnika na np. Zrozum dane z NCG
+1. Zmień tytuł notatnika na np. Zrozum dane z NCG
 
-Utwórz komórkę tekstową i dodaj tam opis np. "moje notatki z warsztatów z nerds coding gang".
+2. Utwórz komórkę tekstową i dodaj tam opis tego notatnika np. "moje notatki z warsztatów z nerds coding gang".
 
-Utwórz kolejną komórkę tym razem "kodową".
+3. Utwórz kolejną komórkę tym razem "kodową".
 
-Spróbuj wpisać poniższy kod w nowej komórce i uruchom go skrótem **Shift + Enter** lub znakiem startu obok komórki:
+4. Spróbuj wpisać poniższy kod w nowej komórce i uruchom go skrótem **Shift + Enter** lub znakiem startu obok komórki:
 
 ```python
 print("Hello, Data Science! 🎉")
@@ -94,6 +95,17 @@ To zróbmy jeszcze jedną rzecz, spróbuj zrobić pętlę, która wyświetli na
 for number in range(10):
     print(numer)
 ```
+
+
+Zastanów się co się stało z tym kodem poniżej:
+
+```python
+names_list = ["Ada", "Julia", "Gleam"]
+for name in names_list:
+    print(name)
+```
+
+Jeśli ten kod wydaje się zatrudny poproś o pomoc mentorów ;) 
 
 ###  🎉 Świetnie!
 W kolejnych rozdziałach poznamy podstawy Pythona, nasze pierwsze zbiory danych i nauczymy się, jak je otworzyć w Colabie i podejrzeć ich zawartość.
