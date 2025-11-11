@@ -112,3 +112,62 @@ Jeśli ją widzisz, to właśnie zrobiłaś/zrobiłeś pierwszy krok w pracy z d
 Można też użyć uploadu ręcznego i widoku zarządzania plikami tymczasowymi - przydatna rzecz, gdy chcemy załadować kilka plików. Ważne jednak pliki żyją tak długo, do póki nie zamkniemy Google Colab. Jeśli chcemy mieć do nich stały dostęp możemy też przechowywać je w Google Drive w stałej lokalizacji.
 
 ![colab-pliki]({{ site.baseurl }}/assets/pliki-colab.png){:title="zarzadzanie plikami" class="img-responsive"}
+
+### Sposób 2: wczytanie danych z linku
+
+Drugi sposób jest wygodny, gdy plik jest w repozytorium online.
+
+Przykład:
+
+```python
+url = "adres do pliku csv"
+df = pd.read_csv(url)
+df.head()
+```
+
+Teraz ten kod nie działa, ale na githubie znajdziesz podgląd **RAW** pliku, to ten adres, który należy podmienić zaczyna się `https://raw.githubusercontent.com/NerdsCodingGang...`
+
+Przyjrzyj się danym, możesz wyświetlić więcej wierszy naszego pliku używając komendy `df.head(<liczba wierszy~ile chcesz wyświetlić)`.
+
+## 🔍 Co my tu mamy?
+
+Spróbuj dopisać i uruchomić po kolei te komendy:
+
+```python
+df.shape
+```
+ zwróci informację, ile wierszy i kolumn ma nasz zbiór
+
+```python
+df.columns
+```
+pokazuje nazwy kolumn, na przykład tempo, energy, popularity,
+
+a na koniec:
+
+```python
+df.info()
+```
+daje  szybki przegląd tego, jakie typy danych są w tabeli.
+
+Nie oczekujemy, że od razu wszystko zapamiętasz.
+Na tym etapie najważniejsze jest: 
+- umiesz wczytać dane,
+- widzisz, że to po prostu tabela,
+- zaczynasz oswajać się z podstawowymi komendami.
+
+#### ZADANIE
+Na podstawie tego, co widzisz w tabeli:
+
+Zapisz w notatkach lub w komórce tekstowej w Colabie:
+
+- które kolumny najbardziej Cię ciekawią, o czym mogą mówić?
+- czego chcesz się dowiedzieć z tych danych.
+
+Zadaj jedno pytanie w stylu:
+
+- "Czy szybsze utwory mają wyższą popularność?"
+- "Czy dłuższe utwory są mniej popularne?"
+
+Zapisz to pytanie.
+- W kolejnych rozdziałach zaczniemy sprawdzać takie hipotezy w praktyce.
