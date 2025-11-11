@@ -1,5 +1,5 @@
 ---
-title: 9. Pierwsze modelowanie danych
+title: 10. Pierwsze modelowanie danych
 layout: post
 ---
 

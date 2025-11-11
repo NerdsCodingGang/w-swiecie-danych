@@ -1,5 +1,5 @@
 ---
-title: 7. Opowiedz dane obrazem
+title: 8. Opowiedz dane obrazem
 layout: post
 ---
 
