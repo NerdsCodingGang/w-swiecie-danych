@@ -1,6 +1,5 @@
 ---
 title: Test page
-layout: post
 ---
 
 The jekyll-theme supports tips, warnings, and dangers blocks and the style is referred
