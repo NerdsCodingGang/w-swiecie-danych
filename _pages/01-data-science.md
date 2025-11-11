@@ -80,7 +80,7 @@ Każdy **projekt w data science** to *podróż* w kilku etapach:
 4. **Wizualizacja** – pokazujesz wyniki na wykresach.  
 5. **Wnioski** – interpretujesz i opowiadasz historię.
 
-> 💡 W pracy Data Scientist nie chodzi o magię kodu – chodzi o **rozumienie, co dane naprawdę mówią**.
+> 💡 W pracy Data Scientist nie chodzi o pisanie dużej ilości kodu tylko o **rozumienie, co dane naprawdę mówią**.
 
 ---
 
@@ -90,7 +90,7 @@ Przyjrzyjmy się danym z **Spotify** 🎵
 Chcemy sprawdzić, **czy tempo utworu (BPM) wpływa na jego popularność.**
 
 W praktyce wygląda to tak:
-- dane pochodzą z [Spotify API](https://developer.spotify.com/documentation/web-api/),  
+- dane pochodzą przykładowo z [Spotify API](https://developer.spotify.com/documentation/web-api/),  
 - każda piosenka ma cechy takie jak: tempo, taneczność, energia, popularność, długość trwania,  
 - możemy sprawdzić, czy istnieje związek między energią utworu a liczbą odtworzeń.
 
