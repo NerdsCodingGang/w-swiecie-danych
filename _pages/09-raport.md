@@ -85,4 +85,6 @@ Jeśli chcesz pójść krok dalej:
 Gratulacje! 🎉  
 
 To Twój pierwszy *data story*.  
-I właśnie od takich historii zaczyna się praca z danymi. 💪
+I właśnie od takich historii zaczyna się praca z danymi 💪
+
+Tu mogłyby się zakończyć nasze zajęcia, ALEE... lubimy dawać wam więcej, zawieszać poprzeczkę wysoko! Zajrzyj do lekcji 10 i 11 jeśli chcesz spróbować swoich sił z uczeniem maszynowym! 
