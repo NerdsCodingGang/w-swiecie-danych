@@ -25,7 +25,7 @@ Wszystko działa w przeglądarce, a Twoje notatki możesz zapisać na Dysku Goog
 💬 Każda komórka to jak mały eksperyment, mini kod pythona możesz do niej wstawić kod, tekst lub wykres.  
 To właśnie w Colabie będziemy pracować z danymi w dalszych rozdziałach.
 
-![VSC]({{ site.baseurl }}/assets/02-google-colab){:title="google colab" class="img-responsive"}
+![Colab]({{ site.baseurl }}/assets/02-google-colab.png){:title="google colab" class="img-responsive"}
 
 ---
 
