@@ -5,7 +5,7 @@ permalink: /
 ---
 
 
-Cześć! Super, że chcesz odkryć z nami, czym naprawdę są **dane** — i jak potrafią opowiadać historie o świecie 🌍  
+Cześć! Super, że chcesz odkryć z nami, czym naprawdę są **dane** — i jak potrafią opowiadać historie o świecie  
 Podczas tych warsztatów pokażemy Ci, jak wygląda prawdziwa praca z danymi: od surowych arkuszy po ciekawe wnioski i wizualizacje.
 
 
@@ -27,9 +27,6 @@ To 2 dni praktycznej pracyz Nerds Coding Gang, w trakcie których:
 📈 zrozumiesz, jak tworzyć wykresy i opowiadać historie liczbami,  
 🤖 zobaczysz, jak wygląda pierwszy krok w stronę sztucznej inteligencji,  
 💬 i przede wszystkim – przekonasz się, że Data Science to nie magia, tylko sposób patrzenia na świat.
-
-
-![](./assets/data_girl.png)
 
 ---
 
