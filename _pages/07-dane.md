@@ -8,7 +8,8 @@ Teraz czas, byś sprawdzić się w pracy samodzielnej.
 W tym rozdziale użyjemy nowego zbioru danych o filmach ma około 1000 wierszy i kilka prostych kolumn.  
 To idealny zestaw, żeby poćwiczyć czyszczenie danych.
 
-Pobierz dane z repozytorium na githubie https://github.com/NerdsCodingGang/w-swiecie-danych/tree/main/data
+Pobierz dane z [Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows/data)
+lub naszego repozytorium na githubie [folder data](https://github.com/NerdsCodingGang/w-swiecie-danych/tree/main/data)
 
 Zestaw danych `movies_sample.csv` pochodzi z publicznych danych i został uproszczony na nasze potrzeby.
 
