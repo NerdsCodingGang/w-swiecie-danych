@@ -97,7 +97,7 @@ Tester oprogramowania (QA) również pracuje z danymi, analizuje wyniki testów,
 
 Marketing Specialist / Growth Analyst, który analizuje dane z kampanii, konwersji i ruchu, by lepiej zrozumieć odbiorców i skutecznie planować działania.
 
-Różne dane, różne cele, ale każdy ma do czynienia z przetwarzaniem informacji.
+**Różne dane, różne cele, ale każdy ma do czynienia z przetwarzaniem informacji.**
 Umiejętność analizowania danych, jest tak naprawdę potrzebna każdej roli IT, ale myślimy, że tak naprawdę dzisiaj każdy skorzysta z podstawowych umiejętności pracy z danymi ;) 
 
 ## 🎬 Mini case study: dane o muzyce
