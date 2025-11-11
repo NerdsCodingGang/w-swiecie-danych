@@ -74,17 +74,17 @@ ale wie, **gdzie i jak jej szukać** w danych!
 
 Każdy **projekt w data science** to *podróż* w kilku etapach:
 
-1️⃣ **Problem** – zadajesz pytanie lub formułujesz hipotezę.  
-2️⃣ **Dane** – szukasz źródeł informacji (CSV, API, open data).  
-3️⃣ **Analiza** – czyścisz dane, liczysz, szukasz zależności.  
-4️⃣ **Wizualizacja** – pokazujesz wyniki na wykresach.  
-5️⃣ **Wnioski** – interpretujesz i opowiadasz historię.
+1. **Problem** – zadajesz pytanie lub formułujesz hipotezę.  
+2. **Dane** – szukasz źródeł informacji (CSV, API, open data).  
+3. **Analiza** – czyścisz dane, liczysz, szukasz zależności.  
+4. **Wizualizacja** – pokazujesz wyniki na wykresach.  
+5. **Wnioski** – interpretujesz i opowiadasz historię.
 
 > 💡 W pracy Data Scientist nie chodzi o magię kodu – chodzi o **rozumienie, co dane naprawdę mówią**.
 
 ---
 
-## 🎬 mini case study: dane o muzyce
+## 🎬 Mini case study: dane o muzyce
 
 Przyjrzyjmy się danym z **Spotify** 🎵  
 Chcemy sprawdzić, **czy tempo utworu (BPM) wpływa na jego popularność.**
@@ -102,20 +102,20 @@ Oczywiście jeszcze nie potrafimy tego zrobić, ale możemy się pewnych rzeczy
 
 ### Teraz twoja kolej 
 
-1️⃣ **Otwórz ulubioną playlistę na Spotify lub YouTube.**  
+1️ **Otwórz ulubioną playlistę na Spotify lub YouTube.**  
    Spójrz na kilka piosenek z różnych gatunków — pop, ballady, techno, jazz.  
 
-2️⃣ **Zastanów się:**  
+2️ **Zastanów się:**  
    - które z nich są szybkie, a które spokojne?  
    - czy zauważasz, że te szybsze mają więcej odtworzeń lub częściej pojawiają się w poleceniach?  (przygotuj małą tabelkę z min. 5 piosenkami i zapisz dane jakie można o nich znaleźć)
    - czy to może mieć związek z porą dnia, nastrojem, stylem życia?
 
-3️⃣ **Zapisz jedną hipotezę**, czyli zdanie w stylu:  
+3️ **Zapisz jedną hipotezę**, czyli zdanie w stylu:  
    > „Szybsze utwory są częściej słuchane rano niż wieczorem.”  
    albo  
    > „Ballady są popularniejsze w weekendy niż w tygodniu.”  
 
-4️⃣ **Podziel się swoją hipotezą z grupą**  
+4️ **Podziel się swoją hipotezą z grupą**  
    W kolejnych rozdziałach nauczymy się, jak takie hipotezy **sprawdzać na danych** — krok po kroku.
 
 ---

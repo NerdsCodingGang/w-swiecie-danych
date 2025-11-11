@@ -1,10 +1,9 @@
 ---
 layout: home
-title: Witaj w świecie danych z Nerds Coding Gang!
+title:  📊 Witaj w świecie danych z Nerds Coding Gang!
 permalink: /
 ---
 
-# 📊 Witaj w świecie danych z Nerds Coding Gang!
 
 Cześć! Super, że chcesz odkryć z nami, czym naprawdę są **dane** — i jak potrafią opowiadać historie o świecie 🌍  
 Podczas tych warsztatów pokażemy Ci, jak wygląda prawdziwa praca z danymi: od surowych arkuszy po ciekawe wnioski i wizualizacje.
@@ -20,18 +19,15 @@ Podczas tych warsztatów pokażemy Ci, jak wygląda prawdziwa praca z danymi: od
 {: .block-warning }
 
 
----
+## 💡 Czym są warsztaty **Data Science**?
 
-## 💡 Czym są warsztaty *Data Science z Nerds Coding Gang*?
-
-To dwa dni praktycznej pracy, w trakcie których:
+To 2 dni praktycznej pracyz Nerds Coding Gang, w trakcie których:
 
 🌸 nauczysz się wczytywać, czyścić i analizować dane,  
 📈 zrozumiesz, jak tworzyć wykresy i opowiadać historie liczbami,  
 🤖 zobaczysz, jak wygląda pierwszy krok w stronę sztucznej inteligencji,  
 💬 i przede wszystkim – przekonasz się, że Data Science to nie magia, tylko sposób patrzenia na świat.
 
----
 
 ![](./assets/data_girl.png)
 
