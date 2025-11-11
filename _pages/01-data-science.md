@@ -32,25 +32,41 @@ Dziś dowiesz się:
 
 ---
 
+## Zanim zaczniemy...
+
+Zatrzymaj się na chwilę i pomyśl, **ile decyzji wokół Ciebie powstaje dzięki danym**.  
+Aplikacja pogodowa decyduje, czy zabierzesz parasol ☔  
+Spotify podpowiada Ci, czego posłuchać rano 🎵  
+Mapa wybiera trasę z najmniejszym korkiem 🚗  
+Nawet ekspres do kawy wie, kiedy lubisz latte bardziej niż espresso ☕
+
+To właśnie dane — tylko **niewidoczne na pierwszy rzut oka**.  
+Data Science pozwala te dane zrozumieć, uporządkować i wyciągnąć z nich sens.  
+
+> W pewnym sensie Data Scientist to tłumacz między światem liczb a światem ludzi.
+
+---
+
 ## 👩‍💻 Kim jest Data Scientist?
 
-Zacznijmy od tego dla kogo jest Data Science.
+Zacznijmy od tego, dla kogo jest Data Science.
 
-Samo określenie Scietist budzi w nas pewne skojarzenia. Może kitel, może probówki, może laboratorium.
+Samo określenie *Scientist* budzi pewne skojarzenia. Może kitel, może probówki, może laboratorium.  
+A kim jest *junior data scientist* — ta rola, która robi się coraz popularniejsza w IT?
 
-A kim jest "junior data scientist"? Kim jest ta rola, która robi się coraz popularniejsza w IT? To ktoś, kto potrafi połączyć ciekawość świata, analityczne myślenie i odrobinę **magii** technologii.  
-To właśnie Data Scientist - osoba, która **zadaje pytania i szuka odpowiedzi w danych**. 
+To ktoś, kto potrafi połączyć ciekawość świata, analityczne myślenie i odrobinę **magii technologii**.  
+To właśnie Data Scientist — osoba, która **zadaje pytania i szuka odpowiedzi w danych**.  
 
-Rola szczególnie ważna, gdy sztuczna inteligencja "udaje" prawdziwą inteligencję. Ludzie często ślepo wierzą w rzeczy bez krytycznego myślenia i wtedy przygodzi analityk czy *naukowiec danych* 🧑‍🔬, jak byśmy tę rolę nazwali i mówi "sprawdzam!" 
+Rola szczególnie ważna dziś, gdy sztuczna inteligencja często „udaje” prawdziwą inteligencję.  
+Ludzie czasem ślepo wierzą w generowane treści — i wtedy pojawia się *naukowiec danych* 🧑‍🔬, który mówi: **„sprawdzam!”**  
 
-
-💬 Przykładowe "absurdalne" (a może i nie) pytania:
+💬 Przykładowe „absurdalne” (a może i nie) pytania:
 - Czy deszcz wpływa na sprzedaż kawy w mieście?  
-- Jakie piosenki mają największe szanse stać się hitem? Czy kolor włosów piosenkarza ma znaczenie? 
-- Co łączy filmy, które dostają najwyższe oceny widzów w kinie? I czy smak popcornu ma wpływ na ocenę filmu przez widzów?
+- Jakie piosenki mają największe szanse stać się hitem? Czy kolor włosów piosenkarza ma znaczenie?  
+- Co łączy filmy, które dostają najwyższe oceny widzów w kinie? Czy smak popcornu może mieć wpływ?  
 
-Data Scientist nie zawsze zna od razu odpowiedź.  
-Ale wie, **gdzie i jak jej szukać** – w danych!
+Data Scientist nie zawsze zna od razu odpowiedź,  
+ale wie, **gdzie i jak jej szukać** – w danych!
 
 ---
 
