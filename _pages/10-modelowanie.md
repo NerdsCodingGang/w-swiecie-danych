@@ -6,7 +6,10 @@ layout: post
 Do tej pory poznaliśmy dane od środka: potrafisz je wczytać, oczyścić i opowiedzieć o nich historię.  
 Teraz zobaczymy, jak komputer może **sam spróbować przewidzieć** pewne zależności w danych.
 
-Tak zaczyna się **uczenie maszynowe (Machine Learning)**.
+Tak zaczyna się magia... tzn **uczenie maszynowe (Machine Learning)**.
+
+![Mieszamy]({{ site.baseurl }}/assets/elixir.gif){:title="magic" class="img-responsive"}
+
 
 ## Co znaczy modelowanie danych?
 
