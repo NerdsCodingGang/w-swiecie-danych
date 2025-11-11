@@ -60,12 +60,15 @@ Jesteście gotowi?
 
 ---
 
-### 🎵 Nasz pierwszy zbiór danych: spotify_sample.csv
+### 🎵 Zbiór danych: spotify_sample.csv
 
-Na warsztatach możesz pobrać plik ze strony [Dataset Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?resource=download) albo skorzystać z [`spotify_sample.csv`](https://raw.githubusercontent.com/NerdsCodingGang/data/spotify_sample.csv) z przygotowanymi danymi.  
-Pokażemy Ci teraz dwa sposoby pracy z tym plikiem w Google Colab.
+Na warsztatach możesz pobrać plik ze strony [Dataset Kaggle](https://www.kaggle.com/datasets/maharshipandya/-spotify-tracks-dataset?resource=download) albo skorzystać z pliku na githubie -> [`spotify_sample.csv`](https://raw.githubusercontent.com/NerdsCodingGang/data/spotify_sample.csv) z przygotowanymi danymi.  
+
 
 > To jest zestaw danych zawierający utwory ze Spotify obejmujący 125 różnych gatunków muzycznych. Każdy utwór ma przypisane określone cechy dźwiękowe. Dane są zapisane w formacie CSV, czyli w postaci tabeli, którą można łatwo i szybko wczytać.
+
+
+Pokażemy Ci teraz dwa sposoby pracy z tym plikiem w Google Colab.
 
 
 Najpierw zrób import biblioteki `pandas`.  
