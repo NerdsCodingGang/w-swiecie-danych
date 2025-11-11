@@ -1,6 +1,4 @@
----
-title: Test page
----
+
 
 The jekyll-theme supports tips, warnings, and dangers blocks and the style is referred
 from [the discord.js website][1].

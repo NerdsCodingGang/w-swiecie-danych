@@ -1,9 +1,10 @@
 ---
 layout: home
-title:  📊 Witaj w świecie danych z Nerds Coding Gang!
+title:  Hello Nerds Coding Gang!
 permalink: /
 ---
 
+📊 Witaj w świecie danych
 
 Cześć! Super, że chcesz odkryć z nami, czym naprawdę są **dane** — i jak potrafią opowiadać historie o świecie  
 Podczas tych warsztatów pokażemy Ci, jak wygląda prawdziwa praca z danymi: od surowych arkuszy po ciekawe wnioski i wizualizacje.
