@@ -28,7 +28,7 @@ Plik ma nazwę:
 
 ---
 
-## 👉 Jak wyglądają dane?
+## Jak wyglądają dane?
 
 Jaką komendą sprawdzisz co zawierają dane?
 
@@ -50,7 +50,7 @@ To idealny zbiór, żeby robić **predykcję ocen filmów, analizę gatunków al
 
 ---
 
-## 👉 Cel projektu
+## Cel projektu
 
 Grupa:
 - wybiera 1-2 pytania badawcze,  
@@ -64,7 +64,7 @@ ale tym razem sami musicie sobie przypomnieć *jakich funkcji użyć*  lub dopyt
 
 ---
 
-## 👉 Propozycje zadań (do wyboru)
+## Propozycje zadań (do wyboru)
 
 Poniżej masz 4 kierunki — wszystkie realne i do zrobienia w ok. 45–60 minut.
 
@@ -77,7 +77,7 @@ Poniżej masz 4 kierunki — wszystkie realne i do zrobienia w ok. 45–60 minut
 
 ---
 
-## 👉 Przebieg pracy 
+## Plan analizy krok po kroku
 
 Znowu, jeśli coś wydaje się nie jasne, wróć do poprzedniego, 11 rozdziału z muzyką! 
 
@@ -116,9 +116,7 @@ Znowu, jeśli coś wydaje się nie jasne, wróć do poprzedniego, 11 rozdział
    👉 Gdzie się myli?  
    👉 Jaka cecha okazała się najważniejsza?
 
----
-
-## 👉 Wskazówki 
+_Wskazówki_:
 
 - Jeśli model „wariuje” – sprawdź typy danych (`dtype`).  
 - Kolumny tekstowe trzeba pominąć lub zakodować — nie używaj ich bez obróbki.  

@@ -64,16 +64,16 @@ Każdy model działa inaczej, ma inne mocne strony i inne słabości.
 
 Użyjemy trzech wskaźników jakości:
 
-### ✔ MAE – Mean Absolute Error  
+### 👉  MAE – Mean Absolute Error  
 Średnia różnica między przewidywaną a prawdziwą wartością.  
 Im mniejsza, tym lepiej.  
 Łatwe do zrozumienia: „o ile model się myli *średnio*”.
 
-### ✔ MSE – Mean Squared Error  
+### 👉 MSE – Mean Squared Error  
 To samo co MAE, ale bardziej karze większe błędy.  
 Również – im mniejsza, tym lepiej.
 
-### ✔ R² – współczynnik dopasowania  
+### 👉 R² – współczynnik dopasowania  
 Już kolejny nam się pojawia. Wartość od 0 do 1.  
 Im bliżej 1, tym lepiej model wyjaśnia zmienność danych.
 
@@ -81,7 +81,7 @@ R² jest najczęściej używany, ale najlepiej patrzeć na wszystkie trzy miary.
 
 
 
-## 👉  trzy modele, jeden podział danych, trzy wyniki
+## Trzy modele, jeden podział danych, trzy wyniki
 
 ```python
 from sklearn.linear_model import LinearRegression
