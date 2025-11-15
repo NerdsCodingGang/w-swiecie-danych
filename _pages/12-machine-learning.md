@@ -136,9 +136,9 @@ Model "zastanawia się:
 _W którym miejscu najlepiej oddzielić jedną grupę od drugiej?_
 
 Przy jednej cesze granica to *po prostu jedna liczba X*.  
-Przy dwóch — linia na wykresie.  
-Przy trzech — płaszczyzna.  
-Przy piętnastu — czego już nie da się narysować, ale działa dokładnie tak samo.
+Przy dwóch → linia na wykresie.  
+Przy trzech → płaszczyzna.  
+Przy piętnastu → coś... czego już nie da się narysować, ale działa dokładnie tak samo.
 
 ---
 
