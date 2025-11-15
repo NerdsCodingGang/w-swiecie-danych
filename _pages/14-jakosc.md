@@ -191,3 +191,5 @@ Właśnie zrobiliście to, co robią osoby pracujące w data science na co dzie�
 
 ...  a od teraz każdy wykres i każda tabela w internecie będzie wyglądać inaczej, bo już wiecie, co dzieje się pod spodem.
 
+
+![applause]({{ site.baseurl }}/assets/applause.gif){:title="brawo" class="img-responsive"}

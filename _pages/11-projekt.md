@@ -9,7 +9,7 @@ To Wasz pierwszy mini-projekt ML-owy.
 
 ---
 
-## 👉 Cel zadania
+## Cel zadania
 
 Każda grupa:
 - wybiera jedno pytanie badawcze,  
@@ -17,7 +17,7 @@ Każda grupa:
 - sprawdza wynik (np. R² lub accuracy),  
 - tworzy wizualizację i krótki opis wniosków (2–3 zdania).
 
-## 👉 Propozycje zadań
+## Propozycje zadań
 
 Każda grupa może wybrać jeden z poniższych kierunków:
 
@@ -30,13 +30,13 @@ Każda grupa może wybrać jeden z poniższych kierunków:
 
 
 
-## 👉 Narzędzia, które wykorzystacie
+## Narzędzia, które wykorzystacie
 
 - `scikit-learn` – do budowy modeli (`LinearRegression`, `LogisticRegression`, `DecisionTreeClassifier`)  
 - `matplotlib` – do tworzenia wykresów porównawczych (np. przewidywana vs rzeczywista popularność)
 
 
-## 👉 Przebieg pracy
+## Przebieg pracy
 
 1️⃣ **Przygotuj dane**  
    Wybierz tylko potrzebne kolumny i usuń brakujące wartości.  
@@ -54,7 +54,7 @@ Każda grupa może wybrać jeden z poniższych kierunków:
 
 ---
 
-## 👉 Dla ambitnych grup
+## Dla ambitnych grup
 
 Spróbujcie porównać dwa modele na tych samych danych, np.  
 `LinearRegression` i `DecisionTreeRegressor`.  
@@ -65,7 +65,7 @@ print(model1.score(X, y))
 print(model2.score(X, y))
 ```
 
-## 👉 Prezentacja wyników
+## Prezentacja wyników
 
 Każda grupa przygotowuje:
 - tytuł projektu i pytanie badawcze,  
@@ -74,7 +74,7 @@ Każda grupa przygotowuje:
 - krótkie wnioski (2–3 zdania: co odkryliście, co zaskoczyło, co można by poprawić).
 
 
-## 👉 Dla prowadzących
+_Dla prowadzących_
 
 Jeśli grupy skończą wcześniej, można je poprosić o:
 - porównanie różnych cech wejściowych,  
