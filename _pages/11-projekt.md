@@ -29,6 +29,11 @@ Każda grupa może wybrać jeden z poniższych kierunków:
 | **Klasyfikacja gatunku (opcjonalnie)** | Czy na podstawie energii i taneczności można odgadnąć gatunek muzyki? | `DecisionTreeClassifier()` | `track_genre` (tylko kilka gatunków) |
 
 
+```python
+from sklearn.tree import DecisionTreeClassifier
+
+model = DecisionTreeClassifier()
+```
 
 ## Narzędzia, które wykorzystacie
 
