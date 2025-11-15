@@ -368,8 +368,9 @@ plt.show()
 
 ## 🎉  WOW!
 
-Uczenie maszynowe w środku zawiera wiele informacji, które "my" jako ludzie rozumiemy, ale nie chcemy ogarniać ich ręcznie: 
+Uczenie maszynowe pod spodem zawiera wiele informacji, które "my" jako ludzie rozumiemy, ale nie chcemy ogarniać ich ręcznie: 
 
+Mały słowniczek pojęć:
 - cechy → dane wejściowe  
 - etykieta → odpowiedź, której model musi się nauczyć  
 - błąd → różnica między tym, co przewidział, a prawdą  
