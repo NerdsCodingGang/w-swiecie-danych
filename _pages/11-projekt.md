@@ -30,9 +30,8 @@ Każda grupa może wybrać jeden z poniższych kierunków:
 
 
 ```python
+from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
-
-model = DecisionTreeClassifier()
 ```
 
 ## Narzędzia, które wykorzystacie
