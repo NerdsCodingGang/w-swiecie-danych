@@ -76,6 +76,9 @@ Model zawsze szuka **zależności** między zestawem cech a etykietą.
 
 ## 👉 Co to znaczy, że model się „uczy”?
 
+
+![machine_learning]({{ site.baseurl }}/assets/trening.png){:title="trening" class="img-responsive"}
+
 Podczas treningu składa się to z kilku kroków:
 
 1. model próbuje stworzyć jakiś wzór,  
