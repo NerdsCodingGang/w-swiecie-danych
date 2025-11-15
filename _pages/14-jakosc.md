@@ -182,7 +182,7 @@ Podpowiedź:
 
 
 ---
-## Gratulacje 
+## Gratulacje 🎉 
 
 Jeśli coś z tych 2-dni naprawdę warto zapamiętać, to to, że w pracy z danymi nie chodzi o perfekcje (nie zawsze) i często wcale nie perfekcyjność, a dość dobrze, tak by zrozumieć ukrytą informację! W dużych danych trudno o perfekcje, tylko o umiejętność zadawania właściwych pytań i sprawdzania ich na faktach.
 
