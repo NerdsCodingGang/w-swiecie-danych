@@ -54,20 +54,20 @@ Każdy model ML działa na bardzo prostym założeniu:
 
 Przykłady z naszych danych:
 
-** 🎵 Spotify – cechy**
+🎵 ** Spotify – cechy**
 - tempo  
 - energia  
 - taneczność  
 
-** 🎵 Spotify – etykieta**
+ 🎵 **Spotify – etykieta**
 - popularność  
 
-** 🎬 Filmy – cechy**
+ 🎬 **Filmy – cechy**
 - czas trwania  
 - Meta_score  
 - liczba głosów  
 
-** 🎬 Filmy – etykieta**
+🎬 **Filmy – etykieta**
 - ocena IMDb  
 
 Model zawsze szuka **zależności** między zestawem cech a etykietą.
