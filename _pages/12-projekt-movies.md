@@ -1,5 +1,5 @@
 ---
-title: 12. Projekt grupowy: Modelowanie na danych filmowych
+title: 12. Modelowanie na danych filmowych
 layout: post
 ---
 
