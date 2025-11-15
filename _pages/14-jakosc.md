@@ -182,14 +182,11 @@ Podpowiedź:
 
 
 ---
+## Gratulacje 
 
 Jeśli coś z tych 2-dni naprawdę warto zapamiętać, to to, że w pracy z danymi nie chodzi o perfekcje (nie zawsze) i często wcale nie perfekcyjność, a dość dobrze, tak by zrozumieć ukrytą informację! W dużych danych trudno o perfekcje, tylko o umiejętność zadawania właściwych pytań i sprawdzania ich na faktach.
 
 Właśnie zrobiliście to, co robią osoby pracujące w data science na co dzień: wzięliście dane, zadaliście im pytania, zbudowaliście modele i oceniliście ich jakość!
-
-## Gratulacje 
-
-...  a od teraz każdy wykres i każda tabela w internecie będzie wyglądać inaczej, bo już wiecie, co dzieje się pod spodem.
 
 
 ![applause]({{ site.baseurl }}/assets/applause.gif){:title="brawo" class="img-responsive"}
