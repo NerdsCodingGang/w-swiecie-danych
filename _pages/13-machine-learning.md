@@ -5,9 +5,9 @@ layout: post
 
 W tej lekcji zajrzymy trochę głębiej pod powierzchnię tego, co robi model ML, kiedy „uczy się” na danych.  Do tej pory trenowałyśmy modele tak po prostu – kilka komend i działa. Teraz zobaczymy, **co naprawdę dzieje się w środku**.
 
-To wiedza, która daje pewność, że nie traktujemy modelu jak czarnej skrzynki, tylko rozumiemy, *dlaczego coś działa*, *dlaczego czasem nie działa* i *co można poprawić*.
+Nie chcemy traktować modelu jak czarnej skrzynki, spróbujemy zrozumieć, *dlaczego coś działa*, *dlaczego czasem nie działa* i *co można poprawić?*.
 
----
+## Uczenie Maszynowe
 
 Machine learning, czyli uczenie maszynowe, to tak naprawdę **bardzo uporządkowany sposób uczenia komputerów na podstawie doświadczenia**.
 
@@ -33,7 +33,6 @@ Dlatego mówimy, że uczenie maszynowe to **systematyczne zmniejszanie błędu**
 Czy widziesz, jak wszystko zaczyna łączyć się w całość? 
 
 ![ML]({{ site.baseurl }}/assets/intro-machine-learning.png){:title="machine learning" class="img-responsive"}
-
 
 
 ## 👉 Cechy i etykieta – dwa filary ML
