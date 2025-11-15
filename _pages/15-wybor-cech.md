@@ -18,7 +18,10 @@ Czasem dwie cechy są prawie identyczne.
 Czasem jedna jest kompletnie bezużyteczna.  
 Czasem dodanie większej liczby cech *psuje* wynik.
 
-Dzisiaj się tego nauczymy.
+Czas trochę zamieszać w naszych danych i sprawdzić, co tak pomaga modelowi przewidywać popularność utworów na Spotify
+
+![salem]({{ site.baseurl }}/assets/salem-mix.gif){:title="mieszamy" class="img-responsive"}
+
 
 ---
 
