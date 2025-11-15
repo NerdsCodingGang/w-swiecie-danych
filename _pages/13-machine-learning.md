@@ -13,6 +13,9 @@ Machine learning, czyli uczenie maszynowe, to tak naprawdę **bardzo uporządkow
 
 W praktyce wygląda to tak, jakbyśmy dali maszynie dużą liczbę przykładów i pozwolili jej samodzielnie odkryć wzorce, które rządzą danymi. Komputer nie dostaje gotowej instrukcji „jak dokładnie coś zrobić”. Zamiast tego uczy się, **co działa najlepiej**, obserwując wyniki swoich własnych prób.
 
+![ML]({{ site.baseurl }}/assets/intro-machine-learning.png){:title="machine learning" class="img-responsive"}
+
+
 W uczeniu maszynowym kluczowe są trzy elementy:
 
 **1. Dane**  
@@ -32,8 +35,7 @@ Dlatego mówimy, że uczenie maszynowe to **systematyczne zmniejszanie błędu**
 
 Czy widziesz, jak wszystko zaczyna łączyć się w całość? 
 
-![ML]({{ site.baseurl }}/assets/intro-machine-learning.png){:title="machine learning" class="img-responsive"}
-
+---
 
 ## 👉 Cechy i etykieta – dwa filary ML
 
