@@ -92,7 +92,7 @@ W zależności od rodzaju modelu, używamy różnych miar jakości:
 
 ---
 
-## 👉 (opcjonalnie) Na zakończenie zajęć
+## 👉 (opcjonalnie) 
 
 Każda grupa pokazuje swój notebook w Colabie i opowiada:
 > „Co chcieliśmy sprawdzić?”  
