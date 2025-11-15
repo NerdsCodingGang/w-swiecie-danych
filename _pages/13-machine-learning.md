@@ -1,5 +1,5 @@
 ---
-title: 13. Jak działa uczenie maszynowe pod spodem?
+title: 13. Jak działa uczenie maszynowe od środka?
 layout: post
 ---
 
@@ -8,6 +8,33 @@ W tej lekcji zajrzymy trochę głębiej pod powierzchnię tego, co robi model ML
 To wiedza, która daje pewność, że nie traktujemy modelu jak czarnej skrzynki, tylko rozumiemy, *dlaczego coś działa*, *dlaczego czasem nie działa* i *co można poprawić*.
 
 ---
+
+Machine learning, czyli uczenie maszynowe, to tak naprawdę **bardzo uporządkowany sposób uczenia komputerów na podstawie doświadczenia**.
+
+W praktyce wygląda to tak, jakbyśmy dali maszynie dużą liczbę przykładów i pozwolili jej samodzielnie odkryć wzorce, które rządzą danymi. Komputer nie dostaje gotowej instrukcji „jak dokładnie coś zrobić”. Zamiast tego uczy się, **co działa najlepiej**, obserwując wyniki swoich własnych prób.
+
+W uczeniu maszynowym kluczowe są trzy elementy:
+
+**1. Dane**  
+To nasz materiał treningowy — im lepszy i bardziej różnorodny, tym trafniejsze wnioski.
+
+**2. Model**  
+To matematyczna konstrukcja, która próbuje dopasować reguły do danych. Na początku jest „pusta”, nie wie nic.
+
+**3. Trenowanie**  
+To proces, w którym model robi prognozę, porównuje ją z prawdą i poprawia swoje wewnętrzne ustawienia, aby następnym razem przewidzieć lepiej.
+
+
+Cały mechanizm polega na nieustannym **uczeniu się na błędach**.  
+Model po każdej iteracji mierzy, jak bardzo się pomylił (to jest tzw. *strata*), a następnie — dzięki metodzie **gradientu** — przesuwa swoje parametry tak, aby błąd spadał. Małymi krokami, ale konsekwentnie.
+
+Dlatego mówimy, że uczenie maszynowe to **systematyczne zmniejszanie błędu**, aż model stanie się na tyle precyzyjny, że możemy go wykorzystać do przewidywania nowych, nieznanych danych.
+
+Czy widziesz, jak wszystko zaczyna łączyć się w całość? 
+
+![ML]({{ site.baseurl }}/assets/intro-machine-learning.png){:title="machine learning" class="img-responsive"}
+
+
 
 ## 👉 Cechy i etykieta – dwa filary ML
 
