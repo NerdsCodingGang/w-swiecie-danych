@@ -226,6 +226,7 @@ Dzięki temu można zobaczyć, które cechy są ważniejsze.
 > model.coef_
 
 Przykład interpretacji:  
+> Analizując wpływ cech na ocenę filmu IMDb:
 > jeśli `coef_` dla `No_of_Votes` jest większe niż dla `Duration`,  
 > to liczba głosów mocniej wpływa na ocenę niż długość filmu.
 
