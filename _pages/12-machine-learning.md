@@ -54,7 +54,7 @@ Każdy model ML działa na bardzo prostym założeniu:
 
 Przykłady z naszych danych:
 
-🎵 ** Spotify – cechy**
+🎵 **Spotify – cechy**
 - tempo  
 - energia  
 - taneczność  
