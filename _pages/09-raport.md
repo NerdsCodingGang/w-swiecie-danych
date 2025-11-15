@@ -89,5 +89,5 @@ I właśnie od takich historii zaczyna się praca z danymi 💪
 
 ![Brawo]({{ site.baseurl }}/assets/albus.gif){:title="brawo" class="img-responsive"}
 
-Tu mogłyby się zakończyć nasze zajęcia, ALEE... lubimy dawać wam więcej, zawieszać poprzeczkę wysoko! Zajrzyj do lekcji 10 i 11 jeśli chcesz spróbować swoich sił z uczeniem maszynowym! 
+Tu mogłyby się zakończyć nasze zajęcia, ALEEE... lubimy dawać wam więcej, zawieszać poprzeczkę wysoko! Zajrzyj do lekcji 10 i 11 jeśli chcesz spróbować swoich sił z uczeniem maszynowym! 
 

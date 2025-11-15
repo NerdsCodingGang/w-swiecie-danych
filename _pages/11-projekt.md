@@ -91,8 +91,8 @@ W zależności od rodzaju modelu, używamy różnych miar jakości:
 | **Klasyfikacja (np. LogisticRegression, DecisionTreeClassifier)** | Kategorię (np. popularny / niepopularny) | `accuracy_score` – dokładność klasyfikacji | Jaki procent przypadków model odgadł poprawnie |
 
 ---
-
-## 👉 (opcjonalnie) 
+### 👉 Prezentacja projektów 
+(opcjonalnie)
 
 Każda grupa pokazuje swój notebook w Colabie i opowiada:
 > „Co chcieliśmy sprawdzić?”  
@@ -100,5 +100,8 @@ Każda grupa pokazuje swój notebook w Colabie i opowiada:
 > „Co wyszło?”  
 > „Co byśmy poprawili następnym razem?”
 
+---
+
+🎉 Super, potrafisz tworzyć modele uczenia maszynowego! ale czy chcesz zagłębić się w jeszcze dalej?
 
 ![magic]({{ site.baseurl }}/assets/magic.gif){:title="magic" class="img-responsive"}

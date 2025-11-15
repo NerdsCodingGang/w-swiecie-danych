@@ -1,9 +1,16 @@
 ---
-title: 12. Modelowanie na danych filmowych
+title: 13. Modelowanie na danych filmowych
 layout: post
 ---
 
-Tym razem znowu przeskoczymy z muzyki do świata filmu.  
+Grupy łączcie się! 
+
+(albo i nie, jeśli chcecie pracować indywidualnie nie zabronimymy 😉)
+
+Tym razem znowu przeskoczymy z muzyki do świata filmu. 
+
+Połączymy wszystko, czego się nauczyliśmy o modelach uczenia maszynowego, i zastosujemy to na **danych z IMDb**.
+
 Pamiętacie nasz **zbiór danych — TOP 1000 filmów z IMDb**? Wracamy do niego! Spróbujcie zbudować prosty model, który przewidzi pewną cechę filmu.
 
 Dane są większe, ciekawsze i bardziej zróżnicowane niż Spotify, więc czeka Was trochę więcej myślenia i szukania… ale właśnie o to chodzi 😊
@@ -113,8 +120,6 @@ Znowu, jeśli coś wydaje się nie jasne, wróć do poprzedniego, 11 rozdział
 
 ## 👉 Wskazówki 
 
-bez gotowych rozwiązań!!!
-
 - Jeśli model „wariuje” – sprawdź typy danych (`dtype`).  
 - Kolumny tekstowe trzeba pominąć lub zakodować — nie używaj ich bez obróbki.  
 - Liczba głosów (`No_of_Votes`) ma **dużo większą skalę** niż inne – możesz użyć logarytmu.  
@@ -123,6 +128,8 @@ bez gotowych rozwiązań!!!
 
 ---
 
-## 👉 Gotowe!
+## 👉 Gotowe! 
+
+Czy chcesz zagłębić się w jeszcze dalej?
 
 
