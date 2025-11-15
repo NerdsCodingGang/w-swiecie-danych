@@ -81,7 +81,7 @@ Chcemy wytrenować smoka... ale właściwie to możemy tylko wytrenować model 
 ![Trenowanie]({{ site.baseurl }}/assets/dragon.gif){:title="trening modelu" class="img-responsive"}
 
 
-Model musi się "nauczyć" na danych, czyli znaleźć najlepszą linię, która pasuje do naszych punktów.
+Model, jak i smok, musi się "nauczyć". W naszym wypadku model ma się nauczyć na danych, czyli znaleźć najlepszą linię, która pasuje do naszych punktów.
 
 ```python
 model.fit(X, y)

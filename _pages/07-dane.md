@@ -33,6 +33,101 @@ Zobacz kilka pierwszych wierszy:
 
 ---
 
+
+## 👉 Co to właściwie jest EDA?
+
+Zanim zaczniemy cokolwiek przewidywać, trenować modele i sprawdzać wyniki, musimy zrobić jedną ważną rzecz: **poznać dane**.  
+Tak zupełnie zwyczajnie spokojnie je obejrzeć, przejrzeć tabelę, sprawdzić, co tam się dzieje.
+
+Ten proces nazywamy **EDA – Exploratory Data Analysis**, czyli eksploracją danych.
+
+Możesz wyobrazić to sobie jak pierwsze spotkanie z nową osobą.  
+Nie pytasz jej od razu na dzień dobry o najgłębsze sekrety.  
+Najpierw patrzysz, kim jest, o czym opowiada, jak się przedstawia... i dokładnie tak samo robimy z danymi.
+
+---
+
+## 👉 Po co robić EDA?
+
+EDA pomaga odpowiedzieć na podstawowe pytania:
+
+- **Co znajduje się w zbiorze?**  
+  Ile jest kolumn, jakie mają nazwy, jakie typy danych.
+
+- **Czy coś wymaga naprawy?**  
+  Braki danych, dziwne wartości, przecinki w liczbach, błędne daty.
+
+- **Jak wyglądają rozkłady wartości?**  
+  Czy oceny filmów mieszczą się między 1 a 10?  
+  Czy długości filmów są podobne, czy bardzo różne?
+
+- **Czy widać jakieś ciekawe zależności?**  
+  Czy filmy z większą liczbą głosów mają wyższe oceny?  
+  Czy dramaty są dłuższe niż komedie?  
+  Czy oceny krytyków (Meta_score) pokrywają się z oceną widzów (IMDb)?
+
+To wszystko pomaga Ci **zrozumieć, z czym pracujesz**, zanim przejdziesz dalej.
+
+---
+
+## 👉 Jak wygląda EDA w praktyce?
+
+Najpierw oglądamy dane:
+- kilka pierwszych wierszy,  
+- podgląd typów danych (np. liczba, tekst),  
+- podsumowanie statystyk (`describe()`),  
+- liczbę braków (`isnull().sum()`).
+
+Potem zadajemy dane pierwsze, drobne pytania:
+- które gatunki pojawiają się najczęściej?  
+- jaki jest najdłuższy film w zestawieniu?  
+- czy w kolumnie `Gross` nie ma przypadkiem przecinków? (tak, ma 😉)  
+- jak wyglądają oceny IMDb — czy większość filmów ma 7–8, czy może jakieś skrajności?
+
+A na końcu pojawiają się **pierwsze wykresy**:
+- histogram czasu trwania filmów,  
+- ranking gatunków,  
+- zależność liczby głosów od oceny,  
+- porównanie Meta_score i IMDb Rating na scatterze.
+
+Nic wielkiego.  
+Nic jeszcze „smart”.  
+Po prostu... patrzenie na dane.
+
+---
+
+## 👉 Dlaczego to jest takie ważne?
+
+Bo model uczenia maszynowego — nawet najprostszy — nie zrobi za Ciebie „magii”,  
+jeśli na wejściu dostanie:
+- błędne typy danych,  
+- brakujące wartości,  
+- tekst zamiast liczb,  
+- albo kolumny, które są niepotrzebne.
+
+EDA chroni Cię przed błędami, które później kosztują najwięcej czasu.
+
+To trochę jak generalne rozeznanie:  
+„Zanim zacznę przewidywać oceny filmów, sprawdźmy, czy te oceny w ogóle mają sens.”
+
+---
+
+## 👉 Najważniejsze, co warto zapamiętać
+
+EDA to:
+- **poznawanie danych**,  
+- **sprawdzanie jakości**,  
+- **zadawanie pierwszych pytań**,  
+- **proste wykresy**,  
+- **budowanie intuicji**.
+
+I dopiero kiedy wiesz, z czym masz do czynienia, możesz przejść do kolejnego etapu:  
+czyli zbudowania swojego pierwszego modelu ML na danych filmowych.
+
+W kolejnym rozdziale dokładnie to zrobimy.
+
+---
+
 ## Pierwsze sprawdzenie
 
 Zanim zaczniesz sprzątać dane, upewnij się, że rozumiesz, co masz przed sobą.
