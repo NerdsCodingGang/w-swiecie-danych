@@ -100,6 +100,9 @@ Każda grupa pokazuje swój notebook w Colabie i opowiada:
 > „Co wyszło?”  
 > „Co byśmy poprawili następnym razem?”
 
+
+_Jeśli masz Githuba pobierz plik .ipynb z tego rozdziału możesz go wgrać jako element Twojego przyszłego portfolio!_
+
 ---
 
 🎉 Super, potrafisz tworzyć modele uczenia maszynowego! ale czy chcesz zagłębić się w jeszcze dalej?

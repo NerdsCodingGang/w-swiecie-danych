@@ -154,7 +154,6 @@ Wartość score `R²`. mieści się między 0 a 1.
    Czy te cechy lepiej przewidują popularność?  
 2. Porównaj wynik `model.score(X, y)` dla różnych cech.  
 3. Zastanów się, która z cech ma **największy wpływ na popularność utworu**.
-
 ---
 
 🎉 Yaaay!  
