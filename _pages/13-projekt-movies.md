@@ -17,14 +17,14 @@ Dane są większe, ciekawsze i bardziej zróżnicowane niż Spotify, więc czeka
 
 ---
 
-## 👉 Skąd pobrać dane
+## Dane do pobrania
 
 Możesz pobrać plik z:
-- Kaggle: https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows/data  
-- naszego repozytorium GitHub: https://github.com/NerdsCodingGang/w-swiecie-danych/tree/main/data
 
-Plik ma nazwę:
-- `imdb_top_1000.csv`
+- [Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows/data)
+- [naszego repozytorium GitHub](https://github.com/NerdsCodingGang/w-swiecie-danych/tree/main/data)
+
+Plik `imdb_top_1000.csv`
 
 ---
 
@@ -40,11 +40,10 @@ W środku znajdziesz między innymi:
 - **Genre** – gatunek (czasem 2–3 w jednej komórce)  
 - **IMDB_Rating** – ocena IMDb  
 - **Meta_score** – ocena krytyków  
-- **Director**  
+- **Director**  - reżyser
 - **Stars** (4 aktorów/aktorek)  
 - **No_of_Votes** – liczba głosów  
-- **Gross** – przychód  
-- **Number_of_Movies** – zawsze 1 (nie używać)
+- **Gross** - przychód w dolarach 
 
 To idealny zbiór, żeby robić **predykcję ocen filmów, analizę gatunków albo popularności**.
 
