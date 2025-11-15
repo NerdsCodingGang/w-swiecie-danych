@@ -6,7 +6,7 @@ layout: post
 Do tej pory trenowaliśmy pojedyncze modele i sprawdzaliśmy, jak przewidują popularność utworów.  
 Teraz zrobimy coś, co w pracy analitycznej jest absolutnie kluczowe:
 
-**sprawdzimy, który model radzi sobie z zadaniem najlepiej oraz dlaczego.**
+**sprawdzimy, który model radzi sobie z zadaniem najlepiej?**
 
 To bardzo ważny moment, bo w świecie ML nie istnieje coś takiego jak najlepszy model do wszystkiego, uniwersalnych rozwiązań nie ma... ;)  
 Czasem działa liniowy, czasem drzewo decyzyjne, czasem model zespołowy (taki jak RandomForest).  
