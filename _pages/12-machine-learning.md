@@ -308,61 +308,61 @@ Tworzy siatkę punktów w tle wykresu (takie tło, które model „pyta” o dec
 
 Używa się ich razem, żeby zobaczyć, jak model dzieli przestrzeń cech na grupy.
 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression, LogisticRegression
 
+# --- 1. Dane: wybieramy cechy i etykietę ---------------------------
+X = df_small[["tempo", "energy", "danceability"]]
+y = df_small["popularność"]
 
-> import numpy as np  
-> import matplotlib.pyplot as plt  
-> from sklearn.linear_model import LinearRegression, LogisticRegression  
->  
-> # --- 1. Dane: wybieramy cechy i etykietę ---------------------------  
-> X = df_small[["tempo", "energy", "danceability"]]  
-> y = df_small["popularity"]  
->  
-> # Binarna wersja popularności (do decision boundary)  
-> y_class = (df_small["popularity"] > 70).astype(int)  
->  
-> # --- 2. Model regresyjny (przewiduje liczbę) -----------------------  
-> reg = LinearRegression()  
-> reg.fit(X, y)  
->  
-> print("WSPÓŁCZYNNIKI (coef_):")  
-> for feature, coef in zip(X.columns, reg.coef_):  
->     print(f"{feature} → {coef:.4f}")  
->  
-> print("\nINTERCEPT:")  
-> print(reg.intercept_)  
->  
-> print("\nPREDYKCJE DLA 3 PIERWSZYCH UTWORÓW:")  
-> print(reg.predict(X.iloc[:3]))  
->  
-> # --- 3. Model klasyfikacji (potrzebny do decision boundary) --------  
-> clf = LogisticRegression()  
-> clf.fit(X[["energy", "danceability"]], y_class)  
->  
-> # --- 4. Wizualizacja granicy decyzji ------------------------------  
->  
-> # Tworzymy siatkę punktów (energia i taneczność)  
-> x_min, x_max = X["energy"].min(), X["energy"].max()  
-> y_min, y_max = X["danceability"].min(), X["danceability"].max()  
-> xx, yy = np.meshgrid(  
->     np.linspace(x_min, x_max, 200),  
->     np.linspace(y_min, y_max, 200)  
-> )  
->  
-> # Przewidywanie dla każdego punktu siatki  
-> Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])  
-> Z = Z.reshape(xx.shape)  
->  
-> # Rysujemy obszary decyzji  
-> plt.contourf(xx, yy, Z, alpha=0.3, cmap="coolwarm")  
->  
-> # Dodajemy prawdziwe punkty  
-> plt.scatter(X["energy"], X["danceability"], c=y_class, cmap="coolwarm", edgecolor="k")  
->  
-> plt.xlabel("energy")  
-> plt.ylabel("danceability")  
-> plt.title("Granica decyzji modelu (popularne vs niepopularne)")  
-> plt.show()
+# Binarna wersja popularności (do decision boundary)
+y_class = (df_small["popularność"] > 70).astype(int)
+
+# --- 2. Model regresyjny (przewiduje liczbę) -----------------------
+reg = LinearRegression()
+reg.fit(X, y)
+
+print("WSPÓŁCZYNNIKI (coef_):")
+for feature, coef in zip(X.columns, reg.coef_):
+    print(f"{feature} → {coef:.4f}")
+
+print("\nINTERCEPT:")
+print(reg.intercept_)
+
+print("\nPREDYKCJE DLA 3 PIERWSZYCH UTWORÓW:")
+print(reg.predict(X.iloc[:3]))
+
+# --- 3. Model klasyfikacji (potrzebny do decision boundary) --------
+clf = LogisticRegression()
+clf.fit(X[["energy", "danceability"]], y_class)
+
+# --- 4. Wizualizacja granicy decyzji ------------------------------
+
+# Tworzymy siatkę punktów (energia i taneczność)
+x_min, x_max = X["energy"].min(), X["energy"].max()
+y_min, y_max = X["danceability"].min(), X["danceability"].max()
+xx, yy = np.meshgrid(
+    np.linspace(x_min, x_max, 200),
+    np.linspace(y_min, y_max, 200)
+)
+
+# Przewidywanie dla każdego punktu siatki
+Z = clf.predict(np.c_[xx.ravel(), yy.ravel()])
+Z = Z.reshape(xx.shape)
+
+# Rysujemy obszary decyzji
+plt.contourf(xx, yy, Z, alpha=0.3, cmap="coolwarm")
+
+# Dodajemy prawdziwe punkty
+plt.scatter(X["energy"], X["danceability"], c=y_class, cmap="coolwarm", edgecolor="k")
+
+plt.xlabel("energy")
+plt.ylabel("danceability")
+plt.title("Granica decyzji modelu (popularne vs niepopularne)")
+plt.show()
+```
 
 ---
 
