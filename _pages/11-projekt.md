@@ -28,17 +28,17 @@ Każda grupa może wybrać jeden z poniższych kierunków:
 | **Klasyfikacja (binarny podział)** | Czy na podstawie energii można rozpoznać, czy utwór jest popularny (np. powyżej 70 pkt)? | `LogisticRegression()` | `popular / niepopular` |
 | **Klasyfikacja gatunku (opcjonalnie)** | Czy na podstawie energii i taneczności można odgadnąć gatunek muzyki? | `DecisionTreeClassifier()` | `track_genre` (tylko kilka gatunków) |
 
-
-```python
-from sklearn.linear_model import LinearRegression, LogisticRegression
-from sklearn.tree import DecisionTreeClassifier
-```
-
 ## Narzędzia, które wykorzystacie
 
 - `scikit-learn` – do budowy modeli (`LinearRegression`, `LogisticRegression`, `DecisionTreeClassifier`)  
 - `matplotlib` – do tworzenia wykresów porównawczych (np. przewidywana vs rzeczywista popularność)
 
+
+
+```python
+from sklearn.linear_model import LinearRegression, LogisticRegression
+from sklearn.tree import DecisionTreeClassifier
+```
 
 ## Przebieg pracy
 
